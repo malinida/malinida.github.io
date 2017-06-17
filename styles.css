@@ -19,7 +19,9 @@ body {
 .MainMenu-items {
   margin: 10px;
   font-size: 18px;
-  font-family: 
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.75;
   
 }
 
