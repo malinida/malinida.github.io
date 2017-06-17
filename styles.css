@@ -13,7 +13,7 @@ body {
 
 .mainMenu {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .MainMenu-items {
@@ -33,7 +33,7 @@ color: #ffffff;
 }
     
 .intro h1 {
-font-size: 40px;
+font-size: 3rem;
 
   }
 
