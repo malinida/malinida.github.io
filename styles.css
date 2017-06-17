@@ -1,7 +1,79 @@
 body {
-	background-color: hotpink;
+	font-family: Verdana, sans-serif;
+	color: #333;
+
 }
 
-h1 {
-	color: deeppink;
+.Site {}
+
+.Site-wrapper {
+	max-width: 1400px;
+  
 }
+
+.mainMenu {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.MainMenu-items {
+  margin: 10px;
+  font-size: 18px;
+  font-family: 
+  
+}
+
+header {
+text-align: center;
+background-image: url("http://www.tjejerkodar.se/image/lila_pattern.png");
+padding: 40px;
+color: #ffffff;
+}
+    
+.intro h1 {
+font-size: 40px;
+
+  }
+
+.intro .button {
+  background: #5EFCDB;
+  padding: 20px 30px 20px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+
+.currentEvents {
+  text-align: center;
+   
+}
+.currentEvents-list {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;  
+}
+
+.currentEvents-box {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-image: url("http://www.tjejerkodar.se/image/ljuslila_pattern.png");
+  font-family: "Open-sans";
+  font-size: 20px;
+  padding: 20px 0px 0px 20px;
+  text-align: center;
+}
+
+.city {
+  background-color: #ffffff;
+  padding: 9px;
+  margin: 25px;
+}
+
+
+
+
