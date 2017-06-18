@@ -16,24 +16,44 @@ body {
   padding-bottom: 70px;
 }
 
+.mainMenu img {
+    width: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .MainMenu-items {
   margin: 10px;
   font-size: 18px;
   color: #ffffff;
   text-decoration: none;
   opacity: 0.75;
-  
-}
+
+  }
 
 header {
 text-align: center;
 background-image: url("http://www.tjejerkodar.se/image/lila_pattern.png");
-padding: 40px;
+padding: 40px 40px 100px 40px;
 color: #ffffff;
 }
-    
+ 
+ .intro {
+  max-width: 700px;
+  margin: auto;
+
+ }
+
+ .intro h3 {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.3em;
+}
+
 .intro h1 {
-font-size: 3rem;
+font-size: 3.5rem;
+font-family: "brandon-grotesque", sans-serif;
+line-height: 1.2;
 
   }
 
@@ -46,32 +66,106 @@ font-size: 3rem;
   display: inline-block;
 }
 
+.intro .button:hover {
+  background: #1df7c9;
+}
 
 .currentEvents {
   text-align: center;
+  padding: 40px;
+  color: #32037A;
+
+}
+
+.currentEvents-puff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+
+}
+
+.currentEvents-city {
+  width: 530px;
+  height: 340px;
+  color: #333;
+  background-size: cover;
+
+}
+
+.currentEvents-city h2 {
+  background-color: #ffffff;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 30%;
+  color: #32037A;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 600;
+}
+
+
+.currentEvents-Barcelona {
+  background-image: url("http://www.tjejerkodar.se/image/aktuell-barcelona2.png");
+
+}
+
+.currentEvents-Berlin {
+  background-image: url("http://www.tjejerkodar.se/image/aktuell-berlin.png");
+  
+}
+
+
+.currentEvents-Barcelona:hover {
+  background-size: 120%;
+}
+
+.currentEvents-Berlin:hover {
+  background-size: 120%;
+}
+
+.ourEvents {
+  text-align: center;
    
 }
-.currentEvents-list {
+.ourEvents-list {
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: auto;
-  justify-content: center;  
+   
 }
 
-.currentEvents-box {
+.ourEvents-box {
   width: 290px;
   height: 290px;
   margin: 10px;
-  background-image: url("http://www.tjejerkodar.se/image/ljuslila_pattern.png");
   font-family: "brandon-grotesque";
   font-size: 20px;
   padding: 10px 0px 0px 10px;
   text-align: center;
   padding-top: 70px;
+  min-width: 375px;
 }
 
-.currentEvents-box a {
+.ourEvents-Berlin {
+ background-image: url("http://www.tjejerkodar.se/image/ljuslila_pattern.png");
+
+}
+
+.ourEvents-Barcelona {
+ background-image: url("http://www.tjejerkodar.se/image/bla_pattern.png");
+
+}
+
+.ourEvents-box:hover {
+  width: 295px;
+	background-size: 185%;
+	text-decoration: underline;
+
+}
+
+.ourEvents-box a {
   text-decoration: none;
   color: #333;
 }
@@ -82,6 +176,40 @@ font-size: 3rem;
   margin: 25px;
 }
 
+.js-is-pink {
+  background-color: pink;
+}
+
+.Counter {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: inline-block;
+
+}
+
+.Counter span {
+  display: inline-block;
+  padding: 5px 10px;
+
+}
+
+.Counter-number {
+  width: 40px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  text-align: center;
+
+}
+
+.Counter-tick {
+  cursor: pointer;
+
+
+}
+
+.js-is-arrow {
+  cursor: default;
+}
 
 
 

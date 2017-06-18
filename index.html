@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Tjejer kodar</title>
-    <link href ="styles.css" rel="stylesheet"
+    <link href ="styles.css" rel="stylesheet" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1", minimum-scale="1" />
   </head>
@@ -13,50 +13,68 @@
     <nav class="mainMenu">
     <a href="#" class="MainMenu-items">Om oss</a>
     <a href="#" class="MainMenu-items">Blogg</a>
-    <a href="#" class="logo"><img src="http://www.tjejerkodar.se/image/tk_logo.png" /></a>
+    <a href="#" class="MainMenu-logo"><img src="http://www.tjejerkodar.se/image/tk_logo.png" /></a>
     <a href="#" class="MainMenu-items">Barcelona</a>
     <a href="#" class="MainMenu-items">Berlin</a>
   </nav>
 
   <section class="intro">
-    <div class"intro-text">
       <h3>LÄR DIG PROGRAMMERING</h3>
       <h1> Vi åker till Berlin och lär oss webb</h1>
       <a class="button" target="_blank" href="http://www.tjejerkodar.se/">Köp biljett</a>
       </section>
-      </div>
 </header>
 
 <section class="currentEvents">
+  <div classs="Counter" id="counter">
+    <span class="Counter-tick">-</span>
+    <span class="Counter-number">0</span>
+    <span class="Counter-tick">+</span>
+  </div>
+
+
+    <h2>Aktuella resor</h2>
+  <div class="currentEvents-puff">
+	<div class="currentEvents-city currentEvents-Barcelona">
+    <h2>September 24-29 i Barcelona »</h2>
+  </div>
+  <div class="currentEvents-city currentEvents-Berlin">
+    <h2>Juni 15-18 i Berlin » </h2>
+  </div>
+</div>
+</section>
+
+
+<section class="ourEvents">
     <h2>Våra kurser</h2>
-  <div class="currentEvents-list">
-    <div class ="currentEvents-box">
+  <div class="ourEvents-list">
+    <div class ="ourEvents-box ourEvents-Berlin">
       <p class="city">Berlin - 3 dagar</p>
       <div><h2><a href="#">Bygg en portfolio i HTML och CSS</a></h2>
       </div>
     </div>
-    <div class ="currentEvents-box">
+    <div class ="ourEvents-box ourEvents-Berlin">
       <p class="city">Berlin - 3 dagar</p>
       <div><h2><a href="#">Bygg en portfolio i HTML och CSS</a></h2>
       </div>
     </div>
-    <div class ="currentEvents-box">
+    <div class ="ourEvents-box ourEvents-Berlin">
       <p class="city">Berlin - 3 dagar</p>
       <div><h2><a href="#">Bygg en portfolio i HTML och CSS</a></h2>
       </div>
     </div>
-    <div class ="currentEvents-box">
-      <p class="city">Berlin - 3 dagar</p>
+    <div class ="ourEvents-box ourEvents-Barcelona">
+      <p class="city">Barcelona - 5 dagar</p>
       <div><h2><a href="#">Bygg en portfolio i HTML och CSS</a></h2>
       </div>
     </div>
-    <div class ="currentEvents-box">
-      <p class="city">Berlin - 3 dagar</p>
+    <div class ="ourEvents-box ourEvents-Barcelona">
+      <p class="city">Barcelona - 5 dagar</p>
       <div><h2><a href="#">Bygg en portfolio i HTML och CSS</a></h2>
       </div>
     </div>
-    <div class ="currentEvents-box">
-      <p class="city">Berlin - 3 dagar</p>
+    <div class ="ourEvents-box ourEvents-Barcelona">
+      <p class="city">Barcelona - 5 dagar</p>
       <div><h2><a href="#">Bygg en portfolio i HTML och CSS</a></h2>
         </div>
     </div>
@@ -65,5 +83,6 @@
  
   
    
-<script src="interactions.js"></script>
+<script src="main.js"></script>
 </body>
+ 
