@@ -113,7 +113,7 @@ line-height: 1.2;
 
 @media (max-width: 800px) {
   .currentEvents-city h2 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   } 
 }
 
@@ -155,14 +155,16 @@ line-height: 1.2;
   margin: 10px;
   font-family: "brandon-grotesque";
   font-size: 20px;
-  padding: 10px 0px 50px 10px;
+  padding: 10px 0px 70px 10px;
   text-align: center;
   box-sizing: border-box;
+  max-width: 300px;
 }
 
 @media (max-width: 1200px) {
   .ourEvents-box {
     width: calc(40% - 20px);
+    max-width: 300px;
   } 
 }
 
